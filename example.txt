@@ -1,0 +1,17 @@
+[lalabed@wasp Assignment1]$ g++ producer.cpp -pthread -lrt -o producer
+[lalabed@wasp Assignment1]$ g++ consumer.cpp -pthread -lrt -o consumer
+[lalabed@wasp Assignment1]$ ./producer & ./consumer &
+[1] 866585
+[2] 866586
+[lalabed@wasp Assignment1]$ Producer produced data: 3
+Producer produced data: 8
+Producer produced data: 4
+Producer produced data: 3
+Producer produced data: 1
+Producer produced data: 1
+Consumer is consuming data: 3
+Consumer is consuming data: 8
+Consumer is consuming data: 4
+Consumer is consuming data: 3
+Consumer is consuming data: 1
+Consumer is consuming data: 1
