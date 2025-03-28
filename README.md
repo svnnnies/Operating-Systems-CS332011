@@ -19,7 +19,9 @@ In the pdf files we were told to use semaphores. Semaphores help us to synchroni
 # Compilation 
 
 In this project I used wasp on vscode as it already has all the packages that we need to use already preinstalled (only did so because I had experience with it because of CS2). So in order to compile this project I can go through a quick rundown on how I did it on my vscode.
+
 1- cd OS //open the OS folder 
+
 2- cd Assignment1 //opens the subfolder that's inside the OS folder 
 
 Assingnment1 contains all the files and code necessaery for the producer consumer problem. Now in order to compile and run the program you open up the terminal and use these pthread commands. 
