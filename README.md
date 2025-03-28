@@ -1,4 +1,4 @@
-Layth Alabed's work for Operating System (producer and consumer problem)
+Layth Alabed's work for Operating Systems (producer and consumer problem)
 
 # Operating-Systems-CS332011
 Contains code for Producer and Consumer problem for Operating System at Kent State 
