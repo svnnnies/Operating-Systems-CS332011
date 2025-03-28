@@ -5,10 +5,14 @@ Contains code for Producer and Consumer problem for Operating System at Kent Sta
 
 # Overview 
 This project/assignment reguires use to use C++/C to implement the producer consumer relationship in the shared memory buffer.
-The project contains three main files: 
+
+The project contains three main files: (no executable/.o files were commited/added) 
+
 1- consumer.cpp 2- producer.cpp 3-shm.hpp
+
 The producer will generate items and put them on a table. The consumer will  consume/pick up items from a table. 
-The consumer will wait if there are no any items on the table, if the there items on the table then the producer will wait. (The table can hold only two items). 
+
+The consumer will wait if there are no any items on the table, if the there items on the table then the producer will wait. 
 
 In the pdf files we were told to use semaphores. Semaphores help us to synchronize the producer and the consumer. 
 
@@ -27,7 +31,8 @@ g++ consumer.cpp -pthread -lrt -o consumer
 ```
 
 To see the output, checkout the example.txt file 
-PS: the output will be different eachtime
+
+PS: the output will be different eachtime (it generate a random item from 1-10)
 
 
 
