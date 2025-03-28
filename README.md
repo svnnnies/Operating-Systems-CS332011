@@ -10,7 +10,7 @@ The project contains three main files:
 The producer will generate items and put them on a table. The consumer will  consume/pick up items from a table. 
 The consumer will wait if there are no any items on the table, if the there items on the table then the producer will wait. (The table can hold only two items). 
 
-In the pdf files we were told to use semaphpres. Semaphores help us to synchronize the producer and the consumer. 
+In the pdf files we were told to use semaphores. Semaphores help us to synchronize the producer and the consumer. 
 
 # Compilation 
 
