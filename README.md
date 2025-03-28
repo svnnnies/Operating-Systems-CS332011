@@ -1,5 +1,7 @@
+Layth Alabed's work for Operating System (producer and consumer problem)
+
 # Operating-Systems-CS332011
-contains code for Producer and Consumer problem for Operating System at Kent State 
+Contains code for Producer and Consumer problem for Operating System at Kent State 
 
 # Overview 
 This project/assignment reguires use to use C++/C to implement the producer consumer relationship in the shared memory buffer.
@@ -12,7 +14,7 @@ In the pdf files we were told to use semaphpres. Semaphores help us to synchroni
 
 # Compilation 
 
-In this project I used wasp on vscode as it already has all the package that we need to use preinstalled. So in order to compile this project I can go through a quick rundown on how I did it on my vscode.
+In this project I used wasp on vscode as it already has all the packages that we need to use already preinstalled (only did so because I had experience with it because of CS2). So in order to compile this project I can go through a quick rundown on how I did it on my vscode.
 1- cd OS //open the OS folder 
 2- cd Assignment1 //opens the subfolder that's inside the OS folder 
 
